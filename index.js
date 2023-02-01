@@ -79,7 +79,7 @@ function checkPin(pinInputs) {
 document.addEventListener("mouseleave", () => {
     console.log("out")
     localStorage.setItem("blocked", true);
-    document.getElementById("msg1").innerText = "Ah cazzone, ti sei fatto fregare";
+    document.getElementById("msg1").innerText = "Eh bravo l'intelligentone, ti sei fatto fregare";
     sirena.play();
     showModal();
 });
